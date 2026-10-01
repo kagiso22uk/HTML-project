@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        h2{
+            font-size: larger;
+            font-weight: 300;
+            margin-left: 20px;
+        }
+        form{
+            width:300px;
+            padding:20px;
+            border-radius:5px;
+            text-align:center;
+        }
+        input[type="radio"]{
+            margin-right:5px;
+        }
+         input[type="text"], input[type="email"]{
+            width: 100%; 
+            padding: 8px; 
+            margin-bottom: 10px;
+             border: 1px solid lightgray;
+              border-radius: 4px;
+              font-size: large;
+         }
+         input[type="submit"], input[type="reset"]{
+            background-color: green; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer;
+         }
+         input[select]{
+            width: 100%; 
+            padding: 8px; 
+            margin-bottom: 10px;
+             border: 1px solid lightgray;
+              border-radius: 4px;
+              font-size: large;
+         }
+         h3{
+            font-size: large;
+            font-weight: 100;
+         }
+         p{
+            font-size: large;
+            font-weight: 100;
+         }
+         li{
+            font-size: large;
+            font-weight: 100;
+         }
+          a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+        }
+        a:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2><strong><i>Student Registration Form</i></strong></h2>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="firstName">
+        <br><br>
+        <label>Last Name:</label>
+        <input type="text" name="lastName">
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+        <label>Student Number:</label>
+        <input type="text" name="studentNumber">
+        <br><br>
+        <label>Year of Study:</label>
+        <br><br>
+        <input type="radio" name="year" value="1">
+        <label>1st Year</label>
+        <input type="radio" name="year" value="2">
+        <label>2nd Year</label>
+        <input type="radio" name="year" value="3">
+        <label>3rd Year</label>
+        <br><br>
+        <label>Courses:</label>
+        <select name="courses">
+            <option value="none">Select a Course</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Applied Mathematics">Applied Mathematics</option>
+            <option value="Statistics">Statistics</option>
+            <option value="Operational Research">Operational Research</option>
+        </select>
+        <br><br>
+        <input type="reset" value="Reset">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <h3>REGISTRATION AND TECHNICAL SUPPORT</h3>
+    <p>Studnets can inquire about registrations and contact the technical team for assistance.</p>
+    <ul>
+        <li>Student Registration</li>
+        <li>Technical Support</li>
+        <li>Module Registration</li>
+        <li>Academic Record Assistance</li>
+    </ul>
+    <br><br>
+        <a href="about.html"><strong>About Us</strong></a>
+        <a href="index.html"><strong>HOME PAGE</strong></a>
+        <a href="modules.html"><strong>Modules</strong></a>
+</body>
+</html>
